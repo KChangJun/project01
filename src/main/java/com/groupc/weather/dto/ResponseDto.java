@@ -6,10 +6,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class ResponseDto {
 
     private String code;
     private String message;
-
 }
