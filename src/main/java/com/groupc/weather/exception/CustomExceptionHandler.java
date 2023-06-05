@@ -5,7 +5,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.groupc.weather.dto.response.ResponseDto;
+import com.groupc.weather.dto.ResponseDto;
+
+
 
 public class CustomExceptionHandler {
     @ExceptionHandler(HttpMessageNotReadableException.class)
