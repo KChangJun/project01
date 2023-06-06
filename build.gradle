@@ -33,10 +33,10 @@ dependencies {
 	implementation group: 'org.json', name: 'json', version: '20180813'
 	implementation 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.3'
 
-	compileOnly 'org.projectlombok:lombok:1.18.8'
-	annotationProcessor 'org.projectlombok:lombok:1.18.8'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
-	testAnnotationProcessor('org.projectlombok:lombok')
+	testAnnotationProcessor 'org.projectlombok:lombok'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
