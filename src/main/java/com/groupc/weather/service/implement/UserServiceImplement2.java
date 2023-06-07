@@ -26,8 +26,7 @@ import com.groupc.weather.dto.response.user.FollowingUserResponseDto;
 import com.groupc.weather.dto.response.user.GetTop5FollowerResponseDto;
 import com.groupc.weather.dto.response.user.GetUserResponseDto;
 import com.groupc.weather.dto.response.user.LoginUserResponseDto;
-import com.groupc.weather.entity.BoardEntity;
-import com.groupc.weather.entity.CommentEntity;
+
 import com.groupc.weather.entity.FollowingEntity;
 import com.groupc.weather.entity.ManagerEntity;
 import com.groupc.weather.entity.UserEntity;
@@ -35,8 +34,7 @@ import com.groupc.weather.entity.resultSet.GetFollowerListResultSet;
 import com.groupc.weather.entity.resultSet.GetFollowingListResultSet;
 import com.groupc.weather.entity.resultSet.GetTop5FollowerListResult;
 import com.groupc.weather.provider.JwtProvider;
-import com.groupc.weather.repository.BoardRepository;
-import com.groupc.weather.repository.CommentRepository;
+
 import com.groupc.weather.repository.FollowRepository;
 import com.groupc.weather.repository.ManagerRepository;
 import com.groupc.weather.repository.UserRepository;

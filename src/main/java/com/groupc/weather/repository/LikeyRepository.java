@@ -11,9 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.groupc.weather.entity.LikeyEntity;
 import com.groupc.weather.entity.primaryKey.LikeyPk;
-import java.util.List;
 
-import javax.transaction.Transactional;
 
 @Repository
 public interface LikeyRepository extends JpaRepository<LikeyEntity, LikeyPk> {

@@ -8,12 +8,9 @@ import com.groupc.weather.entity.CommentEntity;
 import com.groupc.weather.entity.HashTagEntity;
 import com.groupc.weather.entity.ImageUrlEntity;
 import com.groupc.weather.entity.BoardEntity;
-import com.groupc.weather.entity.CommentEntity;
-import com.groupc.weather.entity.HashTagEntity;
-import com.groupc.weather.entity.ImageUrlEntity;
-import com.groupc.weather.entity.LikeyEntity;
+
 import com.groupc.weather.entity.UserEntity;
-import com.groupc.weather.entity.primaryKey.HashPk;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -16,15 +16,15 @@ import lombok.Setter;
 @NoArgsConstructor
 public class GetQnaBoardSearchListResponseDto extends ResponseDto {
 
-    private List<QnaBoardSummary> qnaBoardList;
+    private List<QnaBoardSearchSummary> qnaBoardList;
 
     public GetQnaBoardSearchListResponseDto(List<QnaBoardListResultSet> resultSet) {
         super("SU", "Success");
 
-        List<QnaBoardSummary> qnaBoardList = new ArrayList<>();
+        List<QnaBoardSearchSummary> qnaBoardList = new ArrayList<>();
 
         for (QnaBoardListResultSet result: resultSet) {
-            QnaBoardSummary qnaBoardSummary = new QnaBoardSummary(result);
+            QnaBoardSearchSummary qnaBoardSummary = new QnaBoardSearchSummary(result);
 
             qnaBoardList.add(qnaBoardSummary);
         }
@@ -37,7 +37,7 @@ public class GetQnaBoardSearchListResponseDto extends ResponseDto {
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-class QnaBoardSummary {
+class QnaBoardSearchSummary {
     public int qnaBoardNumber;
     public String qnaBoardTitle;
     public String qnaBoardWriteDatetime;
@@ -45,7 +45,7 @@ class QnaBoardSummary {
     public String qnaBoardWriterProfileImageUrl;
     public int replyComplete;
 
-    public QnaBoardSummary(QnaBoardListResultSet resultSet) {
+    public QnaBoardSearchSummary(QnaBoardListResultSet resultSet) {
         this.qnaBoardNumber = resultSet.getBoardNumber();
         this.qnaBoardTitle = resultSet.getBoardTitle();
         this.qnaBoardWriteDatetime = resultSet.getBoardWriteDatetime();

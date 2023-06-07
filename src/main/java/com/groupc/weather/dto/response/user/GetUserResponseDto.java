@@ -6,7 +6,7 @@ import java.util.List;
 import com.groupc.weather.dto.ResponseDto;
 import com.groupc.weather.entity.BoardEntity;
 import com.groupc.weather.entity.CommentEntity;
-import com.groupc.weather.entity.FollowingEntity;
+
 import com.groupc.weather.entity.UserEntity;
 import com.groupc.weather.entity.resultSet.GetFollowerListResultSet;
 import com.groupc.weather.entity.resultSet.GetFollowingListResultSet;

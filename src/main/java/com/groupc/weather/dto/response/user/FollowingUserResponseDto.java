@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.groupc.weather.dto.ResponseDto;
-import com.groupc.weather.entity.FollowingEntity;
+
 import com.groupc.weather.entity.resultSet.GetFollowingListResultSet;
 
 import lombok.AllArgsConstructor;

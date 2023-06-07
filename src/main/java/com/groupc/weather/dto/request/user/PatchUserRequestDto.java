@@ -1,6 +1,5 @@
 package com.groupc.weather.dto.request.user;
 
-import java.sql.Date;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

@@ -9,9 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
-import com.groupc.weather.dto.request.qnaBoard.PatchQnaBoardRequestDto;
-import com.groupc.weather.dto.request.qnaBoard.PatchQnaCommentRequestDto;
 import com.groupc.weather.dto.request.qnaBoard.PostQnaCommentRequestDto2;
 
 import lombok.AllArgsConstructor;

@@ -2,7 +2,7 @@ package com.groupc.weather.entity;
 
 import com.groupc.weather.dto.request.board.PostBoardRequestDto2;
 import com.groupc.weather.dto.request.common.WeatherDto;
-import com.groupc.weather.repository.UserRepository;
+
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
