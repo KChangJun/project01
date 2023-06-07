@@ -75,16 +75,16 @@ public List<BoardCommentLikeyCountResultSet> getBoardCommentLikeyList();
 "U.profile_image_url AS boardWriterProfileImageUrl, " +
 "count(C.comment_number) AS commentCount, " +
 "count(L.user_number) AS likeCount " +
-"FROM Board B "+
+"FROM board B "+
 "LEFT JOIN (SELECT * FROM( " +
 "select image_number, image_url, board_number, " +
 "ROW_NUMBER() OVER (PARTITION BY board_number) " +
 "AS N FROM image_url) AS T " +
 "WHERE T.N=1) AS BF " +
 "ON B.board_number = BF.board_number " +
-"LEFT JOIN User U " +
+"LEFT JOIN user U " +
 "ON B.user_number = U.user_number " +
-"LEFT JOIN Comment C " +
+"LEFT JOIN comment C " +
 "ON B.board_number = C.board_number " +
 "LEFT JOIN likey L " +
 "ON B.board_number = L.board_number " +
@@ -106,10 +106,10 @@ public List<GetBoardListResult> getBoardList();
 "U.profile_image_url AS boardWriterProfileImageUrl, " +
 "count(C.comment_number) AS commentCount, " +
 "count(L.user_number) AS likeCount " +
-"FROM Board B " +
-"LEFT JOIN User U " +
+"FROM board B " +
+"LEFT JOIN user U " +
 "ON B.user_number = U.user_number " +
-"LEFT JOIN Comment C " +
+"LEFT JOIN comment C " +
 "ON B.user_number = C.board_number " +
 "LEFT JOIN likey L " +
 "ON B.user_number = L.board_number " +
