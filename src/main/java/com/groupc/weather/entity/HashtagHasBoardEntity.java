@@ -15,8 +15,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "HashtagHasBoard")
-@Table(name = "Hashtag_Has_Board")
+@Entity(name = "hashtagHasBoard")
+@Table(name = "hashtag_Has_Board")
 @IdClass(HashPk.class)
 public class HashtagHasBoardEntity {
  

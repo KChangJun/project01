@@ -18,8 +18,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "User")
-@Table(name = "User")
+@Entity(name = "user")
+@Table(name = "user")
 
 public class UserEntity {
     @Id

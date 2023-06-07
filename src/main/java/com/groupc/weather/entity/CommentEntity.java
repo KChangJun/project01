@@ -17,8 +17,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="Comment")
-@Entity(name="Comment")
+@Table(name="comment")
+@Entity(name="comment")
 public class CommentEntity {
 
     @Id

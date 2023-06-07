@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "Hashtag")
-@Table(name = "Hashtag")
+@Entity(name = "hashtag")
+@Table(name = "hashtag")
 public class HashTagEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

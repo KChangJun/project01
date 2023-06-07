@@ -14,8 +14,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name="Alarm")
-@Table(name="Alarm")
+@Entity(name="alarm")
+@Table(name="alarm")
 public class AlarmEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

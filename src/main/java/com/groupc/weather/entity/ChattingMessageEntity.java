@@ -20,8 +20,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="Chatting_Message")
-@Entity(name="ChattingMessage")
+@Table(name="chatting_Message")
+@Entity(name="chattingMessage")
 public class ChattingMessageEntity {
 
     @Id

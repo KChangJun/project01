@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "Following")
-@Table(name = "Following")
+@Entity(name = "following")
+@Table(name = "following")
 @IdClass(FollowingPk.class)
 public class FollowingEntity {
 

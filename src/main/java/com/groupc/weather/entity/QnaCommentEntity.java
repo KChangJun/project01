@@ -18,8 +18,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name="QnaComment")
-@Table(name="Qna_Comment")
+@Entity(name="qnaComment")
+@Table(name="qna_Comment")
 public class QnaCommentEntity {
 
         @Id
